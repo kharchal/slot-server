@@ -1,0 +1,1 @@
+INSERT INTO slots.slots (id, name) VALUES (1, 'slot#1');
