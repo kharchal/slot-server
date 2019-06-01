@@ -30,7 +30,7 @@ GET: "localhost:8888/slotAPI/players/{id}" - получение инфо о иг
 GET: "localhost:8888/slotAPI/slots" - получение списка слотов:
 [{"id":1,"name":"slot#1"}]
 
- GET: "localhost:8888/slotAPI/slots/{id}" - получение списка слотов:
+ GET: "localhost:8888/slotAPI/slots/{id}" - получение информации по слоту #id:
 {"id":1,
 "name":"slot#1",
  "state":["K9Q","8Q8","Q99"],     // три видимых строки барабанов 
